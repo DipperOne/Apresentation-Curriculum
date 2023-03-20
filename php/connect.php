@@ -3,7 +3,7 @@
     //     host        =   localhost
     //     dbname      =   postgres
     //     user        =   postgres
-    //     password    =   dev
+    //     password    =   
     // ");
 
     // if (!$conn) {
