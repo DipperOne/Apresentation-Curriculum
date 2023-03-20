@@ -1,3 +1,5 @@
+<!-- ARQUIVO DE TESTES... -->
+
 <div class="parent-grid-container">
 
     <?php $count = 20; ?>
@@ -80,10 +82,6 @@
         </div>
     </div>
     
-
-Preciso que continue esse codigo pra mim com as seguintes regras:
-
-
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bloco-c"><span class="default-text">Bloco</span> <span class="hover-text">C</span></button>
     
     <div class="modal" id="bloco-c">
@@ -178,14 +176,6 @@ $(document).ready(function() {
     }
 })
 
-Essa funcão de click está dentro de uma modal, e quando clico em uma box dentro da modal, dispara o dataTable com informaçõs corretas
-,porem as configuraçoes do dataTable como inpout de pesquisa, paginação, e outras configurações setadas não estão funcionado, sabe oque pode ser ? 
-
-
-
-
-
-Como solicitado acima, quero que use essa modal como padrão para criar as outras 
 
 <?php $count = 20; ?>
 
@@ -230,20 +220,6 @@ Como solicitado acima, quero que use essa modal como padrão para criar as outra
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <?php
