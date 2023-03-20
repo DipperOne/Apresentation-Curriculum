@@ -1,0 +1,145 @@
+/* Icones rede social */
+.midia {
+    font-size: 22px;
+    opacity: 0;
+    visibility: hidden;
+    width: 0%;
+}
+
+.midia:hover {
+    font-size: 25px;
+    transition: 0.2s ease-out;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Icone que contem funcção click para os icones de midia social apararecerem */
+.midia-social {
+    width: 38px;
+    cursor: pointer;
+    margin-left: 32%;
+}
+
+/*Icone de casa */
+.navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-brand:hover {
+    font-size: 28px;
+    transition: .3s;
+}
+
+/* Class nav-livk da tag <a> da lista (<li>) de navegação */
+.nav-link {
+    position: relative; /* adiciona uma posição relativa para que a linha fique posicionada em relação ao link */
+    text-decoration: none; /* remove o sublinhado padrão do link */
+    color: #000; /* define a cor do texto */
+}
+
+.nav-link:hover {
+    font-size: 16px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px; /* posiciona a linha abaixo do texto */
+    left: 0; /* alinha a linha com a borda esquerda do link */
+    width: 0%; /* inicia com a largura 0 para ficar oculta */
+    height: 1px; /* define a altura da linha */
+    background-color: #000; /* define a cor da linha */
+    transition: width 0.2s ease-out, transform 0.2s ease-out; /* adiciona uma transição suave para a largura e a posição da linha */
+    transform: translateX(-100%); /* move a linha para a esquerda */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* define a largura da linha para 100% quando o link é hover */
+    transform: translateX(0); /* move a linha para a direita */
+}
+
+/* galeria */
+.carousel-inner {
+    width: 55%; /* ajuste para o tamanho desejado */
+    margin: 10% auto; /* centralize horizontalmente */
+    overflow: hidden; /* limite a passagem das imagens */
+}
+
+.sr-only {
+    background-color: black;
+    width: auto;
+}
+.carousel-control-next{
+    right: 0;
+    background-color: black;
+    height: 6%;
+    width: 2%;
+    margin: auto 20%;
+}
+
+.carousel-control-prev {
+    left: 0;
+    background-color: black;
+    height: 6%;
+    width: 2%;
+    margin: auto 20%;
+}
+
+.carousel {
+    position: relative;
+    margin-top: -8%;
+}
+
+
+/* .navbar-expanded {
+    margin: auto;
+}
+
+.navbar-expanded::after {
+    content: 'Alan Christofer';
+    font-size: 26px;
+    color: whitesmoke;
+}
+
+.navbar-expanded:hover::after {
+    color: rgba(255, 255, 255, 0.356);
+    transition: .3s;
+    font-size: 27px;
+}
+
+.navbar-expanded:hover {
+    background: rgba(255, 255, 255, 0.301);
+    color: rgba(255, 255, 255, 0.63);
+} */
+
+/* Class do botão que abre a lista de derecionamento para outras telas da pagina */
+
+.navbar-toggler, .nameNavBar {
+    opacity: 0;
+}
+
+.navbar-toggler-icon::after {
+    opacity: 0;
+}
+
+.navbar-toggler:hover {
+    background: rgba(255, 255, 255, 0.301);
+    font-size: 24px;
+    transition: .3s;
+}
+
+/* Mensagem de bem vindo */
+.saudacao {
+    color: white;
+    margin-left: -12%;
+}
+
+
+
+
+  
+  
+
